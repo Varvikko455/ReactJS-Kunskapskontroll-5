@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 3.7rem;
+    width : 450;
+    height: 655px;
+    margin : 30px auto;
+    background: #38846D;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}

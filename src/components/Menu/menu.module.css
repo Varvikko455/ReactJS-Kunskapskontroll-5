@@ -1,0 +1,185 @@
+.section{
+  color: black;
+  text-align: center;
+  font-family: PT Serif;
+}
+
+.title{
+  text-align: center;
+  font-family: PT Serif;
+  font-size: 50px;
+
+}
+
+.btnAdd{
+  color:rgb(252, 250, 250);
+  background-color: #2F2926;
+  border-radius:50% ;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.coffeTitel{
+  font-size: 28px;
+}
+
+.coffePrice{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.addCoffeInfo{
+  width: 470px;
+  height: 60px;
+  justify-content: space-around;
+  display: flex;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.subTitel{
+  line-height: 0px;
+  width: 400px;
+  font-family: Work-Sans;
+  font-style: normal;
+  font-size: 14px;
+}
+
+
+.coffeOchPrice{
+  width: 400px;
+  height: 60px;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  direction: ltr;
+  direction: initial;
+  margin-right:10px;
+  margin-left: 30px;
+}
+ 
+
+.bag{
+  background-color:#2F2926; 
+  border-radius:50% ;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-left:30rem;
+  align-items: center;
+  margin-left: 500px;
+  position: absolute;
+  top: 30px;
+} 
+
+
+
+.coffeesNumber {
+  position: absolute;
+  color:white;
+  font-size: 15px;
+  right: 8px;
+}
+
+.imgBag{
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+} 
+
+.amout{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 20px;
+  background-color:red;
+   border-radius:50% ;
+  cursor: pointer;
+   position: relative;
+  left: 15px;
+  top : -20px;
+
+
+}
+
+
+
+.navicon{ 
+  background-color:white;
+  border: solid 1px black;
+  border-radius:50% ;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center; 
+  margin-left: 20px;
+  position: absolute;
+  top:20px; 
+}
+
+.imgnavIcon{
+  width: 30px;
+  height: 30px;
+}
+
+
+.nav{
+  width: 600px;
+  height: 70px;
+  justify-content: space-around;
+  background-color: aqua;
+  display: flex; 
+  text-align: center; 
+} 
+
+.header{
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgheader{
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 0px;
+}
+
+.topImg{
+  width: 600px;
+}
+
+
+.footer{
+  width: 600px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  bottom: -7rem;
+}
+
+.menuPage{
+  width: 600px;
+  position: relative;
+  color: black;
+  height: 1100px;
+  background: #F3E4E1;
+  margin : 30px auto;
+}
+

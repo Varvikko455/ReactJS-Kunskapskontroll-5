@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    margin : 30px auto;
+    width: 375px;
+    height: 1061px;
+    padding: 1rem;
+    background: #F3E4E1;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    color: black;
+}
+
+.btnContainer{
+    position: absolute;
+    top: .8rem;
+    left: .8rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.title, .evaText{
+    font-family: PT Serif;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+.picContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    line-height: .1rem;
+}
+
+.pic{
+    border-radius: 3rem;
+}
+
+.big{
+    font-size: 1.5rem;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}

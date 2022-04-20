@@ -1,0 +1,40 @@
+.navContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 7rem;
+    width : 450;
+    height: 655px;
+    margin : 30px auto;
+    color: whitesmoke;
+    background: #2F2926;
+    position: relative;
+}
+
+.navBtn{
+    position: absolute;
+    top: .8rem;
+    left: .8rem;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 10px;
+    color: #2F2926;
+}
+
+.listTitle{
+    font-family: PT Serif;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.centerLine{
+    width: 3rem;
+    height: -.4rem;
+    color: red;
+}
